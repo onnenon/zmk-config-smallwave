@@ -13,4 +13,5 @@ endif
 if SHIELD_SMALLWAVE_LEFT || SHIELD_SMALLWAVE_RIGHT
 config ZMK_SPLIT
     default y
+
 endif
