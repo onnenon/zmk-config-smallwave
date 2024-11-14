@@ -7,5 +7,5 @@ requires: [pro_micro]
 features:
   - keys
 siblings:
-  - smallwave_sun
-  - smallwave_moon
+  - smallwave_left
+  - smallwave_right

@@ -1,7 +1,7 @@
 # Copyright (c) 2022 Duccio Breschi
 # SPDX-License-Identifier: MIT
 
-if SHIELD_SMALLWAVE_SUN
+if SHIELD_SMALLWAVE_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "smallwave"
@@ -11,7 +11,7 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
-if SHIELD_SMALLWAVE_SUN || SHIELD_SMALLWAVE_MOON
+if SHIELD_SMALLWAVE_LEFT || SHIELD_SMALLWAVE_RIGHT
 config ZMK_SPLIT
     default y
 endif

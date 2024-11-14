@@ -1,8 +1,0 @@
-# Copyright (c) 2022 Duccio Breschi
-# SPDX-License-Identifier: MIT
-
-config SHIELD_SMALLWAVE_SUN
-    def_bool $(shields_list_contains,smallwave_sun)
-
-config SHIELD_SMALLWAVE_MOON
-    def_bool $(shields_list_contains,smallwave_moon)

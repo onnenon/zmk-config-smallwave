@@ -1,0 +1,8 @@
+# Copyright (c) 2022 Duccio Breschi
+# SPDX-License-Identifier: MIT
+
+config SHIELD_SMALLWAVE_LEFT
+    def_bool $(shields_list_contains,smallwave_left)
+
+config SHIELD_SMALLWAVE_RIGHT
+    def_bool $(shields_list_contains,smallwave_right)
